@@ -1,23 +1,22 @@
-
-4 #include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 int main()
 {
-int m; // размер массива
+int m; // Г°Г Г§Г¬ГҐГ° Г¬Г Г±Г±ГЁГўГ 
 printf("Input N>3 & M>4 \n");
-scanf("%d" ,&m);// ввод кол-во строк
+scanf("%d" ,&m);// ГўГўГ®Г¤ ГЄГ®Г«-ГўГ® Г±ГІГ°Г®ГЄ
 if (m <=3 )
 {return 0;}
 int n;
-scanf("%d" ,&n);//ввод кол-во столбцов
+scanf("%d" ,&n);//ГўГўГ®Г¤ ГЄГ®Г«-ГўГ® Г±ГІГ®Г«ГЎГ¶Г®Гў
 if (n <=4)
 {return 0;}
 int a[m][n];
 int i;
 int j;
 a[m][n] =rand();
-for(i = 0; i < m ; i++)//Введение массива
+for(i = 0; i < m ; i++)//Г‚ГўГҐГ¤ГҐГ­ГЁГҐ Г¬Г Г±Г±ГЁГўГ 
 {
 for(j = 0 ; j < n ;j++)
 {printf("%d \n" ,& a[i][j]);}
